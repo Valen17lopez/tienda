@@ -8,16 +8,47 @@
     <title>Tienda | producto</title>
 </head>
 <body>
-    <div class="wrapper">
-        <h1 class="titulo">Productos</h1>
-        <div class="container">
-            <div class="card"><img src="../imagenes/producto1.jpg" alt="" class="img1"></div>
-            <div class="card"><img src="../imagenes/producto2.jpg" alt="" class="img2"></div>
-            <div class="card"><img src="../imagenes/producto3.jfif" alt="" class="img3"></div>
-            <div class="card"><img src="../imagenes/producto4.jfif" alt="" class="img4"></div>
-            <div class="card"><img src="../imagenes/producto5.jpg" alt="" class="img5"></div>
-            <div class="card"><img src="../imagenes/Producto6.jpg" alt="" class="img6"></div>
+    <div class="car">
+        <h1>Productos</h1>
+        <div>
+        <img src="../imagenes/carrito.png">
+        <span id="contador">0</span>
         </div>
     </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="tarjeta">
+                <img src="../imagenes/producto1.jpg" class="img">
+                <h2>Medias</h2> <br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+            <div class="tarjeta">
+                <img src="../imagenes/producto2.jpg" class="img">
+                <h2>Balon</h2><br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+            <div class="tarjeta">
+                <img src="../imagenes/producto4.jfif" class="img">
+                <h2>Rodilleras</h2><br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+            <div class="tarjeta">
+                <img src="../imagenes/producto3.jfif" class="img">
+                <h2>Zapatillas</h2> <br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+            <div class="tarjeta">
+                <img src="../imagenes/producto5.jpg" class="img">
+                <h2>Uniformes</h2><br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+            <div class="tarjeta">
+                <img src="../imagenes/Producto6.jpg" class="img">
+                <h2>Balon</h2><br>
+                <button onclick="agregar()">Agregar</button><button onclick="eliminar()">Eliminar</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
